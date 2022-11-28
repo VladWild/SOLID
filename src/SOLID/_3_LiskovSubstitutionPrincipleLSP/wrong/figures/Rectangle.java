@@ -23,5 +23,4 @@ public class Rectangle {
     public int getArea(){
         return width * heigth;
     }
-
 }

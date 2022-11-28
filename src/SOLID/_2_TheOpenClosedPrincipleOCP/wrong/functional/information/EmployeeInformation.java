@@ -11,10 +11,8 @@ public class EmployeeInformation {
             System.out.println("Генерация отчета по деятельности сотрудника в формате CSV");
         }
 
-        if (typeReport == TypeReport.CSV) {
+        if (typeReport == TypeReport.PDF) {
             System.out.println("Генерация отчета по деятельности сотрудника в формате PDF");
         }
-
     }
-
 }

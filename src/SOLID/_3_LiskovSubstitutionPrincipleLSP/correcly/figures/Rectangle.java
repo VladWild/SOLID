@@ -1,6 +1,6 @@
 package SOLID._3_LiskovSubstitutionPrincipleLSP.correcly.figures;
 
-public class Rectangle implements Shape{
+public class Rectangle implements Shape {
     int width;
     int heigth;
 

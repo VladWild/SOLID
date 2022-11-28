@@ -12,6 +12,4 @@ public class Notification {
     public void emailDistribution(){
         email.send();
     }
-
-
 }

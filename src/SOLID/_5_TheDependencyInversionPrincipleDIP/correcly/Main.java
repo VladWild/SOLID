@@ -9,7 +9,5 @@ public class Main {
     public static void main(String[] args) {
         new Notification(new Email()).distribution();
         new Notification(new SMS()).distribution();
-
     }
-
 }

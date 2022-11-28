@@ -14,4 +14,8 @@ public class Square extends Rectangle {
         width = heigth;
     }
 
+    @Override
+    public int getArea() {
+        return width * width;
+    }
 }

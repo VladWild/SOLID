@@ -3,14 +3,13 @@ package SOLID._5_TheDependencyInversionPrincipleDIP.correcly.notification;
 import SOLID._5_TheDependencyInversionPrincipleDIP.correcly.type.IMessenger;
 
 public class Notification {
-    private IMessenger _messenger;
+    private IMessenger messenger;
 
-    public Notification(IMessenger mess) {
-        _messenger = mess;
+    public Notification(IMessenger messenger) {
+        this.messenger = messenger;
     }
 
-    public void distribution(){
-        _messenger.send();
+    public void distribution() {
+        messenger.send();
     }
-
 }

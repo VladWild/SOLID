@@ -1,6 +1,7 @@
 package SOLID._4_InterfaceSegregationPrinciplISP.wrong.subject;
 
-public class Senior extends Employee implements IEmployee{
+public class Senior extends Employee implements IEmployee {
+
     public Senior(int ID, String name) {
         super(ID, name);
     }
